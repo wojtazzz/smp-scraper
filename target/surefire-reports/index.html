@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="cookieWarningShouldNotReapprearAfterPageReload">cookieWarningShouldNotReapprearAfterPageReload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="emptySearchShouldDoNothing">emptySearchShouldDoNothing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="exclusionOperatorShouldWork">exclusionOperatorShouldWork</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="nonIndexedPhrasesShouldNotGiveAnyResults">nonIndexedPhrasesShouldNotGiveAnyResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="searchForUrlShouldGiveThePageOnFirstPosition">searchForUrlShouldGiveThePageOnFirstPosition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="shouldBePossibleToLoadSearchPage">shouldBePossibleToLoadSearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="shouldBePossibleToSearchForEnglishNouns(purchaser)">shouldBePossibleToSearchForEnglishNouns(purchaser)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="shouldBePossibleToSearchForEnglishNouns(algebra)">shouldBePossibleToSearchForEnglishNouns(algebra)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="shouldBePossibleToSearchForEnglishNouns(heels)">shouldBePossibleToSearchForEnglishNouns(heels)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="shouldBePossibleToSearchForEnglishNouns(sixes)">shouldBePossibleToSearchForEnglishNouns(sixes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="shouldBePossibleToSearchForEnglishNouns(brains)">shouldBePossibleToSearchForEnglishNouns(brains)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="shouldBePossibleToSearchForEnglishNouns(cuff)">shouldBePossibleToSearchForEnglishNouns(cuff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="shouldBePossibleToSelectSuggestionsFromDropdown">shouldBePossibleToSelectSuggestionsFromDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="shouldSuggestCorrectSearchForMisspelledPhrases">shouldSuggestCorrectSearchForMisspelledPhrases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pl.agagra.google.tests.GoogleSearchTest" hash-for-method="tooLongPhrasesShouldGiveWarnings">tooLongPhrasesShouldGiveWarnings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pl.agagra.google.tests.GoogleSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cookieWarningShouldNotReapprearAfterPageReload">
+                  </a> <!-- cookieWarningShouldNotReapprearAfterPageReload -->
+                  <span class="method-name">cookieWarningShouldNotReapprearAfterPageReload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptySearchShouldDoNothing">
+                  </a> <!-- emptySearchShouldDoNothing -->
+                  <span class="method-name">emptySearchShouldDoNothing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exclusionOperatorShouldWork">
+                  </a> <!-- exclusionOperatorShouldWork -->
+                  <span class="method-name">exclusionOperatorShouldWork</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nonIndexedPhrasesShouldNotGiveAnyResults">
+                  </a> <!-- nonIndexedPhrasesShouldNotGiveAnyResults -->
+                  <span class="method-name">nonIndexedPhrasesShouldNotGiveAnyResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForUrlShouldGiveThePageOnFirstPosition">
+                  </a> <!-- searchForUrlShouldGiveThePageOnFirstPosition -->
+                  <span class="method-name">searchForUrlShouldGiveThePageOnFirstPosition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBePossibleToLoadSearchPage">
+                  </a> <!-- shouldBePossibleToLoadSearchPage -->
+                  <span class="method-name">shouldBePossibleToLoadSearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBePossibleToSearchForEnglishNouns(purchaser)">
+                  </a> <!-- shouldBePossibleToSearchForEnglishNouns(purchaser) -->
+                  <span class="method-name">shouldBePossibleToSearchForEnglishNouns</span>
+                  <span class="parameters">(purchaser)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBePossibleToSearchForEnglishNouns(algebra)">
+                  </a> <!-- shouldBePossibleToSearchForEnglishNouns(algebra) -->
+                  <span class="method-name">shouldBePossibleToSearchForEnglishNouns</span>
+                  <span class="parameters">(algebra)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBePossibleToSearchForEnglishNouns(heels)">
+                  </a> <!-- shouldBePossibleToSearchForEnglishNouns(heels) -->
+                  <span class="method-name">shouldBePossibleToSearchForEnglishNouns</span>
+                  <span class="parameters">(heels)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBePossibleToSearchForEnglishNouns(sixes)">
+                  </a> <!-- shouldBePossibleToSearchForEnglishNouns(sixes) -->
+                  <span class="method-name">shouldBePossibleToSearchForEnglishNouns</span>
+                  <span class="parameters">(sixes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBePossibleToSearchForEnglishNouns(brains)">
+                  </a> <!-- shouldBePossibleToSearchForEnglishNouns(brains) -->
+                  <span class="method-name">shouldBePossibleToSearchForEnglishNouns</span>
+                  <span class="parameters">(brains)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBePossibleToSearchForEnglishNouns(cuff)">
+                  </a> <!-- shouldBePossibleToSearchForEnglishNouns(cuff) -->
+                  <span class="method-name">shouldBePossibleToSearchForEnglishNouns</span>
+                  <span class="parameters">(cuff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBePossibleToSelectSuggestionsFromDropdown">
+                  </a> <!-- shouldBePossibleToSelectSuggestionsFromDropdown -->
+                  <span class="method-name">shouldBePossibleToSelectSuggestionsFromDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldSuggestCorrectSearchForMisspelledPhrases">
+                  </a> <!-- shouldSuggestCorrectSearchForMisspelledPhrases -->
+                  <span class="method-name">shouldSuggestCorrectSearchForMisspelledPhrases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tooLongPhrasesShouldGiveWarnings">
+                  </a> <!-- tooLongPhrasesShouldGiveWarnings -->
+                  <span class="method-name">tooLongPhrasesShouldGiveWarnings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pl.agagra.google.tests.GoogleSearchTest&quot;/&gt;
+      &lt;class name=&quot;pl.agagra.google.utils.TestCaseListener&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'shouldBePossibleToSelectSuggestionsFromDropdown')
+data.setCell(0, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(0, 3, 4979);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'exclusionOperatorShouldWork')
+data.setCell(1, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(1, 3, 4489);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'cookieWarningShouldNotReapprearAfterPageReload')
+data.setCell(2, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(2, 3, 2028);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tooLongPhrasesShouldGiveWarnings')
+data.setCell(3, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(3, 3, 1947);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shouldBePossibleToSearchForEnglishNouns')
+data.setCell(4, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(4, 3, 1352);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shouldBePossibleToSearchForEnglishNouns')
+data.setCell(5, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(5, 3, 1314);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'shouldSuggestCorrectSearchForMisspelledPhrases')
+data.setCell(6, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(6, 3, 1311);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'shouldBePossibleToSearchForEnglishNouns')
+data.setCell(7, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(7, 3, 1276);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'shouldBePossibleToSearchForEnglishNouns')
+data.setCell(8, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(8, 3, 1259);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchForUrlShouldGiveThePageOnFirstPosition')
+data.setCell(9, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(9, 3, 1256);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'shouldBePossibleToSearchForEnglishNouns')
+data.setCell(10, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(10, 3, 1239);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'shouldBePossibleToSearchForEnglishNouns')
+data.setCell(11, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(11, 3, 968);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'emptySearchShouldDoNothing')
+data.setCell(12, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(12, 3, 411);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'nonIndexedPhrasesShouldNotGiveAnyResults')
+data.setCell(13, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(13, 3, 375);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'shouldBePossibleToLoadSearchPage')
+data.setCell(14, 2, 'pl.agagra.google.tests.GoogleSearchTest')
+data.setCell(14, 3, 186);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pl.agagra.google.tests.GoogleSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cookieWarningShouldNotReapprearAfterPageReload</span>
+                <span class="method-start">7725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">9753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">9989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptySearchShouldDoNothing</span>
+                <span class="method-start">16092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">16503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">16721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">exclusionOperatorShouldWork</span>
+                <span class="method-start">22874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">27363 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">27573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nonIndexedPhrasesShouldNotGiveAnyResults</span>
+                <span class="method-start">33763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">34138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">34438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchForUrlShouldGiveThePageOnFirstPosition</span>
+                <span class="method-start">40781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">42039 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">42341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldBePossibleToLoadSearchPage</span>
+                <span class="method-start">49625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">49812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">50090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldBePossibleToSearchForEnglishNouns(algebra)</span>
+                <span class="method-start">56578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">57854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">58141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldBePossibleToSearchForEnglishNouns(brains)</span>
+                <span class="method-start">64839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">66079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">66381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldBePossibleToSearchForEnglishNouns(purchaser)</span>
+                <span class="method-start">72822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">74175 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">74414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldBePossibleToSearchForEnglishNouns(sixes)</span>
+                <span class="method-start">80878 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">82137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">82492 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldBePossibleToSearchForEnglishNouns(cuff)</span>
+                <span class="method-start">88996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">90310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">90546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldBePossibleToSearchForEnglishNouns(heels)</span>
+                <span class="method-start">96900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">97868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">98068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldBePossibleToSelectSuggestionsFromDropdown</span>
+                <span class="method-start">104471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">109450 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">109668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldSuggestCorrectSearchForMisspelledPhrases</span>
+                <span class="method-start">117290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">118602 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEveryTest</span>
+                <span class="method-start">118897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tooLongPhrasesShouldGiveWarnings</span>
+                <span class="method-start">126173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEveryTest</span>
+                <span class="method-start">128120 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

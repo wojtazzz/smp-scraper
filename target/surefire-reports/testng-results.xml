@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="128421" started-at="2013-12-20T21:55:17Z" finished-at="2013-12-20T21:57:26Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="128421" started-at="2013-12-20T21:55:17Z" finished-at="2013-12-20T21:57:26Z">
+      <class name="pl.agagra.google.tests.GoogleSearchTest">
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="7725" started-at="2013-12-20T22:55:17Z" finished-at="2013-12-20T22:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="cookieWarningShouldNotReapprearAfterPageReload()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="cookieWarningShouldNotReapprearAfterPageReload" duration-ms="2028" started-at="2013-12-20T22:55:25Z" finished-at="2013-12-20T22:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieWarningShouldNotReapprearAfterPageReload -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="236" started-at="2013-12-20T22:55:27Z" finished-at="2013-12-20T22:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6102" started-at="2013-12-20T22:55:27Z" finished-at="2013-12-20T22:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="emptySearchShouldDoNothing()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="emptySearchShouldDoNothing" duration-ms="411" started-at="2013-12-20T22:55:33Z" finished-at="2013-12-20T22:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptySearchShouldDoNothing -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="218" started-at="2013-12-20T22:55:34Z" finished-at="2013-12-20T22:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6153" started-at="2013-12-20T22:55:34Z" finished-at="2013-12-20T22:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="exclusionOperatorShouldWork()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="exclusionOperatorShouldWork" duration-ms="4489" started-at="2013-12-20T22:55:40Z" finished-at="2013-12-20T22:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exclusionOperatorShouldWork -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="210" started-at="2013-12-20T22:55:45Z" finished-at="2013-12-20T22:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6190" started-at="2013-12-20T22:55:45Z" finished-at="2013-12-20T22:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="nonIndexedPhrasesShouldNotGiveAnyResults()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="nonIndexedPhrasesShouldNotGiveAnyResults" duration-ms="375" started-at="2013-12-20T22:55:51Z" finished-at="2013-12-20T22:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonIndexedPhrasesShouldNotGiveAnyResults -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="300" started-at="2013-12-20T22:55:51Z" finished-at="2013-12-20T22:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6343" started-at="2013-12-20T22:55:52Z" finished-at="2013-12-20T22:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="searchForUrlShouldGiveThePageOnFirstPosition()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="searchForUrlShouldGiveThePageOnFirstPosition" duration-ms="1256" started-at="2013-12-20T22:55:58Z" finished-at="2013-12-20T22:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForUrlShouldGiveThePageOnFirstPosition -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="302" started-at="2013-12-20T22:55:59Z" finished-at="2013-12-20T22:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="7283" started-at="2013-12-20T22:56:00Z" finished-at="2013-12-20T22:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="shouldBePossibleToLoadSearchPage()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="shouldBePossibleToLoadSearchPage" duration-ms="186" started-at="2013-12-20T22:56:07Z" finished-at="2013-12-20T22:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBePossibleToLoadSearchPage -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="221" started-at="2013-12-20T22:56:07Z" finished-at="2013-12-20T22:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6488" started-at="2013-12-20T22:56:07Z" finished-at="2013-12-20T22:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="shouldBePossibleToSearchForEnglishNouns(java.lang.String)[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="shouldBePossibleToSearchForEnglishNouns" duration-ms="1276" started-at="2013-12-20T22:56:14Z" data-provider="randomNouns" finished-at="2013-12-20T22:56:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[algebra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBePossibleToSearchForEnglishNouns -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="287" started-at="2013-12-20T22:56:15Z" finished-at="2013-12-20T22:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6698" started-at="2013-12-20T22:56:15Z" finished-at="2013-12-20T22:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="shouldBePossibleToSearchForEnglishNouns(java.lang.String)[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="shouldBePossibleToSearchForEnglishNouns" duration-ms="1239" started-at="2013-12-20T22:56:22Z" data-provider="randomNouns" finished-at="2013-12-20T22:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[brains]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBePossibleToSearchForEnglishNouns -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="302" started-at="2013-12-20T22:56:23Z" finished-at="2013-12-20T22:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6441" started-at="2013-12-20T22:56:24Z" finished-at="2013-12-20T22:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="shouldBePossibleToSearchForEnglishNouns(java.lang.String)[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="shouldBePossibleToSearchForEnglishNouns" duration-ms="1352" started-at="2013-12-20T22:56:30Z" data-provider="randomNouns" finished-at="2013-12-20T22:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[purchaser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBePossibleToSearchForEnglishNouns -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="239" started-at="2013-12-20T22:56:31Z" finished-at="2013-12-20T22:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6464" started-at="2013-12-20T22:56:32Z" finished-at="2013-12-20T22:56:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="shouldBePossibleToSearchForEnglishNouns(java.lang.String)[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="shouldBePossibleToSearchForEnglishNouns" duration-ms="1259" started-at="2013-12-20T22:56:38Z" data-provider="randomNouns" finished-at="2013-12-20T22:56:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sixes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBePossibleToSearchForEnglishNouns -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="355" started-at="2013-12-20T22:56:39Z" finished-at="2013-12-20T22:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6504" started-at="2013-12-20T22:56:40Z" finished-at="2013-12-20T22:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="shouldBePossibleToSearchForEnglishNouns(java.lang.String)[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="shouldBePossibleToSearchForEnglishNouns" duration-ms="1314" started-at="2013-12-20T22:56:46Z" data-provider="randomNouns" finished-at="2013-12-20T22:56:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cuff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBePossibleToSearchForEnglishNouns -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="236" started-at="2013-12-20T22:56:47Z" finished-at="2013-12-20T22:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6354" started-at="2013-12-20T22:56:48Z" finished-at="2013-12-20T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="shouldBePossibleToSearchForEnglishNouns(java.lang.String)[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="shouldBePossibleToSearchForEnglishNouns" duration-ms="968" started-at="2013-12-20T22:56:54Z" data-provider="randomNouns" finished-at="2013-12-20T22:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[heels]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBePossibleToSearchForEnglishNouns -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="200" started-at="2013-12-20T22:56:55Z" finished-at="2013-12-20T22:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="6403" started-at="2013-12-20T22:56:55Z" finished-at="2013-12-20T22:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="shouldBePossibleToSelectSuggestionsFromDropdown()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="shouldBePossibleToSelectSuggestionsFromDropdown" duration-ms="4979" started-at="2013-12-20T22:57:02Z" finished-at="2013-12-20T22:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBePossibleToSelectSuggestionsFromDropdown -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="217" started-at="2013-12-20T22:57:07Z" finished-at="2013-12-20T22:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="7622" started-at="2013-12-20T22:57:07Z" finished-at="2013-12-20T22:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="shouldSuggestCorrectSearchForMisspelledPhrases()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="shouldSuggestCorrectSearchForMisspelledPhrases" duration-ms="1311" started-at="2013-12-20T22:57:14Z" finished-at="2013-12-20T22:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSuggestCorrectSearchForMisspelledPhrases -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="295" started-at="2013-12-20T22:57:16Z" finished-at="2013-12-20T22:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method status="PASS" signature="beforeEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="beforeEveryTest" is-config="true" duration-ms="7276" started-at="2013-12-20T22:57:16Z" finished-at="2013-12-20T22:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method status="PASS" signature="tooLongPhrasesShouldGiveWarnings()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="tooLongPhrasesShouldGiveWarnings" duration-ms="1947" started-at="2013-12-20T22:57:23Z" finished-at="2013-12-20T22:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tooLongPhrasesShouldGiveWarnings -->
+        <test-method status="PASS" signature="afterEveryTest()[pri:0, instance:pl.agagra.google.tests.GoogleSearchTest@e60a94]" name="afterEveryTest" is-config="true" duration-ms="285" started-at="2013-12-20T22:57:25Z" finished-at="2013-12-20T22:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+      </class> <!-- pl.agagra.google.tests.GoogleSearchTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

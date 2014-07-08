@@ -1,0 +1,6 @@
+pl\agagra\google\pageobjects\Page.class
+pl\agagra\google\pageobjects\GoogleResultPage.class
+pl\agagra\google\tests\GoogleSearchTest.class
+pl\agagra\google\pageobjects\GoogleSearchPage.class
+pl\agagra\google\utils\TestCaseListener.class
+pl\agagra\google\utils\FileUtils.class
